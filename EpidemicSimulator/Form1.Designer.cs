@@ -57,18 +57,17 @@
             // 
             // pbPicture
             // 
-            this.pbPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbPicture.Location = new System.Drawing.Point(11, 11);
-            this.pbPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.pbPicture.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pbPicture.Name = "pbPicture";
-            this.pbPicture.Size = new System.Drawing.Size(500, 500);
+            this.pbPicture.Size = new System.Drawing.Size(501, 501);
             this.pbPicture.TabIndex = 0;
             this.pbPicture.TabStop = false;
             // 
             // btnReset
             // 
             this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnReset.Location = new System.Drawing.Point(516, 466);
+            this.btnReset.Location = new System.Drawing.Point(517, 467);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(80, 45);
             this.btnReset.TabIndex = 1;
@@ -79,7 +78,7 @@
             // 
             this.btnPlayPause.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnPlayPause.Image = ((System.Drawing.Image)(resources.GetObject("btnPlayPause.Image")));
-            this.btnPlayPause.Location = new System.Drawing.Point(602, 466);
+            this.btnPlayPause.Location = new System.Drawing.Point(603, 467);
             this.btnPlayPause.Name = "btnPlayPause";
             this.btnPlayPause.Size = new System.Drawing.Size(80, 45);
             this.btnPlayPause.TabIndex = 2;
@@ -88,7 +87,7 @@
             // btnStep
             // 
             this.btnStep.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnStep.Location = new System.Drawing.Point(688, 466);
+            this.btnStep.Location = new System.Drawing.Point(689, 467);
             this.btnStep.Name = "btnStep";
             this.btnStep.Size = new System.Drawing.Size(80, 45);
             this.btnStep.TabIndex = 3;
@@ -100,7 +99,7 @@
             // 
             this.btnOptions.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnOptions.Image")));
-            this.btnOptions.Location = new System.Drawing.Point(774, 466);
+            this.btnOptions.Location = new System.Drawing.Point(775, 467);
             this.btnOptions.Name = "btnOptions";
             this.btnOptions.Size = new System.Drawing.Size(45, 45);
             this.btnOptions.TabIndex = 4;
@@ -110,7 +109,7 @@
             // pb2
             // 
             this.pb2.BackColor = System.Drawing.SystemColors.Control;
-            this.pb2.Location = new System.Drawing.Point(530, 192);
+            this.pb2.Location = new System.Drawing.Point(531, 193);
             this.pb2.Name = "pb2";
             this.pb2.Size = new System.Drawing.Size(50, 50);
             this.pb2.TabIndex = 5;
@@ -119,7 +118,7 @@
             // pb0
             // 
             this.pb0.BackColor = System.Drawing.SystemColors.Control;
-            this.pb0.Location = new System.Drawing.Point(530, 80);
+            this.pb0.Location = new System.Drawing.Point(531, 81);
             this.pb0.Name = "pb0";
             this.pb0.Size = new System.Drawing.Size(50, 50);
             this.pb0.TabIndex = 5;
@@ -128,7 +127,7 @@
             // pb3
             // 
             this.pb3.BackColor = System.Drawing.SystemColors.Control;
-            this.pb3.Location = new System.Drawing.Point(530, 248);
+            this.pb3.Location = new System.Drawing.Point(531, 249);
             this.pb3.Name = "pb3";
             this.pb3.Size = new System.Drawing.Size(50, 50);
             this.pb3.TabIndex = 5;
@@ -137,7 +136,7 @@
             // pb1
             // 
             this.pb1.BackColor = System.Drawing.SystemColors.Control;
-            this.pb1.Location = new System.Drawing.Point(530, 136);
+            this.pb1.Location = new System.Drawing.Point(531, 137);
             this.pb1.Name = "pb1";
             this.pb1.Size = new System.Drawing.Size(50, 50);
             this.pb1.TabIndex = 5;
@@ -146,7 +145,7 @@
             // pb4
             // 
             this.pb4.BackColor = System.Drawing.SystemColors.Control;
-            this.pb4.Location = new System.Drawing.Point(530, 304);
+            this.pb4.Location = new System.Drawing.Point(531, 305);
             this.pb4.Name = "pb4";
             this.pb4.Size = new System.Drawing.Size(50, 50);
             this.pb4.TabIndex = 5;
@@ -155,7 +154,7 @@
             // lb2
             // 
             this.lb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lb2.Location = new System.Drawing.Point(586, 192);
+            this.lb2.Location = new System.Drawing.Point(587, 193);
             this.lb2.Name = "lb2";
             this.lb2.Size = new System.Drawing.Size(217, 50);
             this.lb2.TabIndex = 6;
@@ -165,7 +164,7 @@
             // lb0
             // 
             this.lb0.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lb0.Location = new System.Drawing.Point(586, 80);
+            this.lb0.Location = new System.Drawing.Point(587, 81);
             this.lb0.Name = "lb0";
             this.lb0.Size = new System.Drawing.Size(217, 50);
             this.lb0.TabIndex = 7;
@@ -175,7 +174,7 @@
             // lb3
             // 
             this.lb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lb3.Location = new System.Drawing.Point(586, 248);
+            this.lb3.Location = new System.Drawing.Point(587, 249);
             this.lb3.Name = "lb3";
             this.lb3.Size = new System.Drawing.Size(217, 50);
             this.lb3.TabIndex = 8;
@@ -185,7 +184,7 @@
             // lb1
             // 
             this.lb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lb1.Location = new System.Drawing.Point(586, 136);
+            this.lb1.Location = new System.Drawing.Point(587, 137);
             this.lb1.Name = "lb1";
             this.lb1.Size = new System.Drawing.Size(217, 50);
             this.lb1.TabIndex = 9;
@@ -195,7 +194,7 @@
             // lb5
             // 
             this.lb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lb5.Location = new System.Drawing.Point(586, 360);
+            this.lb5.Location = new System.Drawing.Point(587, 361);
             this.lb5.Name = "lb5";
             this.lb5.Size = new System.Drawing.Size(217, 50);
             this.lb5.TabIndex = 10;
@@ -205,7 +204,7 @@
             // pb5
             // 
             this.pb5.BackColor = System.Drawing.SystemColors.Control;
-            this.pb5.Location = new System.Drawing.Point(530, 360);
+            this.pb5.Location = new System.Drawing.Point(531, 361);
             this.pb5.Name = "pb5";
             this.pb5.Size = new System.Drawing.Size(50, 50);
             this.pb5.TabIndex = 5;
@@ -214,7 +213,7 @@
             // lb4
             // 
             this.lb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lb4.Location = new System.Drawing.Point(586, 304);
+            this.lb4.Location = new System.Drawing.Point(587, 305);
             this.lb4.Name = "lb4";
             this.lb4.Size = new System.Drawing.Size(217, 50);
             this.lb4.TabIndex = 10;
@@ -225,7 +224,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(831, 522);
+            this.ClientSize = new System.Drawing.Size(832, 523);
             this.Controls.Add(this.lb4);
             this.Controls.Add(this.lb5);
             this.Controls.Add(this.lb1);
@@ -245,7 +244,7 @@
             this.Controls.Add(this.pbPicture);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";

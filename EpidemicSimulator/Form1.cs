@@ -51,6 +51,23 @@ namespace EpidemicSimulator
             HospitalCapacity = formOptions.HospitalCapacity;
         }
 
+        private Image GetImage()
+        {
+            Graphics myGraphics;
+            Bitmap myBitmap = new Bitmap(501,501);
+            myGraphics = Graphics.FromImage(myBitmap);
+
+            for(int i = 0; i <= 50; i++)
+            {
+                myGraphics.DrawLine(new Pen(new SolidBrush(Color.Black)), i * 10, 0, i * 10, 500);
+            }
+            for (int i = 0; i <= 50; i++)
+            {
+                myGraphics.DrawLine(new Pen(new SolidBrush(Color.Black)), 0, i * 10, 500, i * 10);
+            }
+            return myBitmap;
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -74,7 +91,7 @@ namespace EpidemicSimulator
 
         private void btnStep_Click(object sender, EventArgs e)
         {
-
+            pbPicture.Image = GetImage();
         }
     }
 }
